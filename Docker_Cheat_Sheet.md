@@ -22,7 +22,14 @@
 
 
 ## Purges all containers - this will remove all active and inactive containers from the disk: 
+<<<<<<< HEAD
 `docker rm ``docker ps --no-trunc -aq`` -f`
 
 ## Same thing but removes images
 `docker image rm ``docker image ls --no-trunc -aq`` -f`
+=======
+docker rm `docker ps --no-trunc -aq` -f
+
+## Same thing but removes images
+docker image rm `docker image ls --no-trunc -aq` -f
+>>>>>>> bcd417d6eb22318f5b3587356e87fafb8496767e
