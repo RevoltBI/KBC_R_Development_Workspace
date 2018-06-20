@@ -1,0 +1,18 @@
+{
+    "id": "in.c-main.test",
+    "uri": "https:\/\/connection.keboola.com\/\/v2\/storage\/tables\/in.c-main.test",
+    "name": "docs-example",
+    "primary_key": [],
+    "indexed_columns": [],
+    "created": "2016-02-17T23:12:03+0100",
+    "last_change_date": "2016-02-17T23:12:04+0100",
+    "last_import_date": "2016-02-17T23:12:04+0100",
+    "rows_count": 5,
+    "data_size_bytes": 32768,
+    "is_alias": false,
+    "columns": [
+        "number",
+        "someText"
+    ],
+    "attributes": []
+}
